@@ -1,0 +1,35 @@
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+label {
+  display: block;
+}
+button {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border: none;
+  background-color: #2e86de;
+  color: white;
+  margin-top: 1rem;
+  transition: transform 200ms ease-in-out;
+}
+button:active {
+  transform: scale(0.98);
+}
+button:hover {
+  transform: scale(1.02);
+}
+td a img {
+  width: 100%;
+}
